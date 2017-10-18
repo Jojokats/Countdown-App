@@ -24,12 +24,8 @@
 }
 
 .App-input-style {
-  width: 200px;
-  margin-bottom: 15px;
-  border-radius: 3px;
-  padding: 8px;
-  border: none;
-  font-size: 1rem;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
 }
 
 .Clock-days,

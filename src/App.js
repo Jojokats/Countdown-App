@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './jk-logo.svg';
 import Clock from './clock';
 import './App.css';
+import { Form, FormControl, Button } from 'react-bootstrap';
 
 class App extends Component {
   constructor(props) {
@@ -31,9 +32,11 @@ class App extends Component {
         </div>
 
         <div className="App-input">
-          <input className="App-input-style" placeholder='New Date' onChange={event => this.setState({newDeadline: event.target.value})}/>
-          <br/>
-          <button onClick={() => this.changeDeadLine()}>Submit</button>
+          <Form inline>
+            <FormControl className="App-input-style" placeholder='New Date' onChange={event => this.setState({newDeadline: event.target.value})}/>
+            <br/>
+            <Button bsStyle='info' onClick={() => this.changeDeadLine()}>Submit</Button>
+        </Form>
         </div>
 
       </div>
