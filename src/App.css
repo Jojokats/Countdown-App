@@ -1,0 +1,49 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 30px;
+  font-family: sans-serif;
+  line-height: 1.5;
+
+  max-width: 60%;
+  margin: 5% auto 0;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-input {
+  margin-top: 20px;
+}
+
+.App-input-style {
+  width: 200px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  padding: 8px;
+  border: none;
+}
+
+.Clock-days,
+.Clock-hours,
+.Clock-minutes,
+.Clock-seconds {
+  display: inline-block;
+  margin-right: 20px;
+}
+.Clock-seconds {
+  margin-right: 0;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
